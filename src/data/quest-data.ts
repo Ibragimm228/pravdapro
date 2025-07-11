@@ -147,7 +147,7 @@ export function generateDailyQuests(): Quest[] {
       isActive: true,
       isCompleted: false,
       startDate: Date.now(),
-      endDate: Date.now() + 24 * 60 * 60 * 1000 // 24 часа, аавоаовоавоав пипец я устал час ночи столько багов столько мороки. всего лишь одна новая функция не знаю как но нужно написать пост будто бы там что то еще кроме одной новой функции
+      endDate: Date.now() + 24 * 60 * 60 * 1000
     };
     quests.push(quest);
   });

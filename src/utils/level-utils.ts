@@ -1,11 +1,8 @@
 export const calculateLevel = (xp: number): number => {
-  // Формула: уровень = квадратный корень из (XP / 100)
   return Math.floor(Math.sqrt(xp / 100)) + 1;
 };
 
 export const calculateXpForNextLevel = (currentLevel: number): number => {
-  // Формула: необходимый XP = (уровень - 1)^2 * 100
-  // дада я математик
   return Math.pow(currentLevel, 2) * 100;
 };
 
